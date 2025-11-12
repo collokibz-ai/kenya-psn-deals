@@ -15,7 +15,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename="/kenya-psn-deals">
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Shop />} />
           <Route path="/checkout" element={<Checkout />} />
