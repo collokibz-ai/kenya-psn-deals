@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import TestimonialCard from "@/components/TestimonialCard";
 import WinnerCard from "@/components/WinnerCard";
 import PromotionBanner from "@/components/PromotionBanner";
@@ -97,6 +98,8 @@ const Testimonials = () => {
           </div>
         </div>
       </section>
+      
+      <Footer />
     </div>
   );
 };

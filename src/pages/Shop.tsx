@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import ProductCard from "@/components/ProductCard";
+import Footer from "@/components/Footer";
 
 const products = [
   { id: "us-10", region: "United States", amount: "$10", price: 1500, flag: "🇺🇸", popular: true },
@@ -44,6 +45,8 @@ const Shop = () => {
           </div>
         </div>
       </section>
+      
+      <Footer />
     </div>
   );
 };
